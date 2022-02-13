@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-function Footer(){
-    return (
-        <React.Fragment>
+export default function Footer() {
+	return (
+		<div>
 			<footer className="sticky-footer bg-white">
 				<div className="container my-auto">
 					<div className="copyright text-center my-auto">
@@ -10,8 +10,6 @@ function Footer(){
 					</div>
 				</div>
 			</footer>
-
-        </React.Fragment>
-    )
+		</div>
+	)
 }
-export default Footer;
